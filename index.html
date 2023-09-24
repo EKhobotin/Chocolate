@@ -9,16 +9,16 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="./index.html">SIMPLY CHOCOLATE</a>
-        <img src="./images/header/logo.png" alt="Chocolate" />
-        <ul>
-          <li><a href="./index.html"></a>Home</li>
-          <li><a href=""></a>How it’s made?</li>
-          <li><a href=""></a>Chocolate is loved</li>
+      <nav class="header-nav">
+        <a class="link" href="./index.html">SIMPLY CHOCOLATE</a>
+        <img class="logo" src="./images/header/logo.png" alt="Chocolate" />
+        <ul class="list nav-list">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#how-it's-made">How it’s made?</a></li>
+          <li><a href="#review">Chocolate is loved</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="list social-list">
         <li>
           <a href=""
             ><img src="./images/header/icon-facebook.svg" alt="facebook"
@@ -38,15 +38,21 @@
     </header>
 
     <section class="hero-page">
-      <h1>
+      <h1 hero-title>
         Treat yourself or a loved one to our finest ingredients for a moment of
         pure delight!
       </h1>
-      <ul>
-        <li><button type="button">Buy now</button></li>
+      <ul class="list hero-list">
+        <li class="hero-list-item">
+          <button class="button-buy" type="button">Buy now</button>
+        </li>
 
-        <li><button type="button">How it’s made?</button></li>
-        <li><button type="button">scroll down</button></li>
+        <li class="hero-list-item">
+          <button class="button-how" type="button">How it’s made?</button>
+        </li>
+        <li class="hero-list-item">
+          <button class="button-scroll" type="button">scroll down</button>
+        </li>
       </ul>
     </section>
     <section class="benefits">
@@ -122,9 +128,9 @@
         </li>
       </ul>
     </section>
-    <section class="how-it-made">
-      <h2></h2>
-      <img src="./images/chocolate.png" alt="Chocolate" />
+    <section class="how-its-made" id="how-it's-made">
+      <h2>How it’s made?</h2>
+      <img src="./images/chocolate.png" alt="Chocolate" width="600px" />
       <h3>
         Try our chocolates today and discover the perfect balance of flavor
       </h3>
@@ -148,7 +154,7 @@
     <section class="products">
       <ul>
         <li>
-          <img src="./images/products/orange.jpg" alt="orange" />
+          <img src="./images/products/orange.jpg" alt="orange" width="230px" />
           <h3>Orange</h3>
           <p>Dark chocolate</p>
           <button>45 UAH</button>
@@ -157,43 +163,64 @@
           <img
             src="./images/products/apple-cranberry.jpg"
             alt="applecranberry"
+            width="230px"
           />
           <h3>Apple&cranberry</h3>
           <p>Milk chocolate</p>
           <button>50 UAH</button>
         </li>
         <li>
-          <img src="./images/products/lime-seasalt.jpg" alt="lime-seasalt" />
+          <img
+            src="./images/products/lime-seasalt.jpg"
+            alt="lime-seasalt"
+            width="230px"
+          />
           <h3>Lime&sea salt</h3>
           <p>Dark chocolate</p>
           <button>66 UAH</button>
         </li>
         <li>
-          <img src="./images/products/pineapple.jpg" alt="pineapple" />
+          <img
+            src="./images/products/pineapple.jpg"
+            alt="pineapple"
+            width="230px"
+          />
           <h3>Pineapple</h3>
           <p>Dark chocolate</p>
           <button>54 UAH</button>
         </li>
         <li>
-          <img src="./images/products/classic.jpg" alt="classic" />
+          <img
+            src="./images/products/classic.jpg"
+            alt="classic"
+            width="230px"
+          />
           <h3>Classic</h3>
           <p>Milk chocolate</p>
           <button>45 UAH</button>
         </li>
         <li>
-          <img src="./images/products/honey.jpg" alt="honey" />
+          <img src="./images/products/honey.jpg" alt="honey" width="230px" />
           <h3>Honey</h3>
           <p>Milk chocolate</p>
           <button>50 UAH</button>
         </li>
         <li>
-          <img src="./images/products/roastedfruits.jpg" alt="roasted fruits" />
+          <img
+            src="./images/products/roastedfruits.jpg"
+            alt="roasted fruits"
+            width="230px"
+          />
           <h3>Roasted fruits</h3>
           <p>Dark chocolate</p>
           <button>66 UAH</button>
         </li>
         <li>
-          <img src="./images/products/classicwhite.jpg" alt=classic white" />
+          <img
+            src="./images/products/classicwhite.jpg"
+            alt="classic white"
+            width="230px"
+          />
           <h3>Classic</h3>
           <p>White chocolate</p>
           <button>54 UAH</button>
@@ -229,5 +256,73 @@
         </li>
       </ul>
     </section>
+    <section class="review" id="review">
+      <h2>Chocolate is loved</h2>
+      <ul>
+        <li>
+          <img
+            src="./images/review/victoria-dobrzhanska.png"
+            alt="Customer photo"
+            width="80px"
+          />
+          <h3>Victoria Dobrzhanska</h3>
+          <p>
+            I love this chocolate bar. Perfect combination of light crispy
+            wafer, covered in a thin layer chocolate.
+          </p>
+        </li>
+        <li>
+          <img
+            src="./images/review/nazar-babenko.png"
+            alt="Customer photo"
+            width="80px"
+          />
+          <h3>Nazar Babenko</h3>
+          <p>
+            This chocolate confection is a delight! A delight! The wafer is
+            light and crisp, the hazelnut cream is smooth, and the chocolate is
+            good.
+          </p>
+        </li>
+        <li>
+          <img
+            src="./images/review/olena-kampusch.png"
+            alt="Customer photo"
+            width="80px"
+          />
+          <h3>Olena Kampusch</h3>
+          <p>
+            Chocolate is a family favourite treat. Love the delicious smooth
+            chocolate and the creaminess inside. The wafer is soft but crunchy.
+          </p>
+        </li>
+      </ul>
+      <button type="button">Leave a review</button>
+    </section>
+    <footer class="footer">
+      <h2>Chocolate a delicious cure for a bad day</h2>
+      <p>Social networks</p>
+      <ul>
+        <li><img src="./images/footer/icon-facebook.svg" alt="facebook" /></li>
+        <li><img src="./images/footer/icon-instagram.svg" alt="facebook" /></li>
+        <li><img src="./images/footer/icon-twitter.svg" alt="twitter" /></li>
+      </ul>
+      <p>Contact us</p>
+      <address>
+        <ul>
+          <li><a href="tel:+380684439426">+380 (68) 443-94-26</a></li>
+          <li>
+            <a href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
+          </li>
+        </ul>
+      </address>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#how-it's-made">How it’s made?</a></li>
+          <li><a href="#review">Chocolate is loved</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
